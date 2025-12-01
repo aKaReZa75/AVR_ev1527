@@ -205,6 +205,7 @@ ISR(INT0_vect)
 void ev1527_Init(void)
 {
   /* ===== Configure INT0 External Interrupt ===== */
+  GPIO_Config_INPUT(DDRD, 2);
   /* Set INT0 to trigger on rising edge (ISC01:ISC00 = 11) */
   bitSet(EICRA, ISC00);                                    /**< ISC00=1: Rising edge select (part 1) */
   bitSet(EICRA, ISC01);                                    /**< ISC01=1: Rising edge select (part 2) */
