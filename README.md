@@ -127,8 +127,36 @@ After a valid frame is captured, the **address** and **data (key)** are stored f
 
 ## Project Videos
 
-> [!CAUTION]
-> This tutorial has not yet **started!**
+```plaintext
+EV1527
+└── [aKaReZa 143 - AVR, EV1527 - PART A]
+    ├─ EV1527 — Protocol structure and remote specifications.
+    ├─ Project — Decoder project setup and initialization.
+    ├─ Detection — Preamble recognition and synchronization.
+    ├─ Decoding — Extracting and interpreting RF data.
+    ├─ Testing — Practical validation with EV1527 remotes.
+    └─ Workflow — GitHub Pull Requests and development basics.     
+```
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/HDpNVvx-osg">aKaReZa 143 – AVR, EV1527 - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to receive and decode EV1527 remote control signals using an AVR microcontroller. This episode covers the EV1527 protocol structure, remote specifications, project creation, initialization functions, preamble detection, data decoding, and practical testing. You'll also get an introduction to <strong>GitHub Pull Requests</strong> and development workflows, making this a great starting point for RF remote control projects with AVR.
+      </p>
+    </td>
+    <td width="360" valign="center">
+      <a href="https://youtu.be/HDpNVvx-osg">
+        <img src="https://img.youtube.com/vi/HDpNVvx-osg/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 138 – AVR, Timer, Capture – Mode 4 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 # 💻 How to Use Git and GitHub
